@@ -37,7 +37,7 @@
     "direction": "ltr",
     "font_stack": "Noto Sans, Arial, sans-serif",
     "enabled": true,
-    "translation_available": false
+    "translation_available": true
   },
   {
     "language_id": "fil",
@@ -117,7 +117,7 @@
     "direction": "ltr",
     "font_stack": "Noto Sans, Arial, sans-serif",
     "enabled": true,
-    "translation_available": false
+    "translation_available": true
   },
   {
     "language_id": "ne",
