@@ -1116,11 +1116,11 @@
     "question_id": "Q504",
     "category_id": "company_work",
     "level": "preA1",
-    "japanese_plain": "かいしゃは　なんじからですか。",
+    "japanese_plain": "しごとは　なんじからですか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "かいしゃは"
+        "text": "しごとは"
       },
       {
         "group_id": "g2",
@@ -1135,18 +1135,18 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "かいしゃは　なんじからですか。",
+    "audio_text": "しごとは　なんじからですか。",
     "notes": ""
   },
   {
     "question_id": "Q505",
     "category_id": "company_work",
     "level": "preA1",
-    "japanese_plain": "かいしゃは　なんじまでですか。",
+    "japanese_plain": "しごとは　なんじまでですか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "かいしゃは"
+        "text": "しごとは"
       },
       {
         "group_id": "g2",
@@ -1161,7 +1161,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "かいしゃは　なんじまでですか。",
+    "audio_text": "しごとは　なんじまでですか。",
     "notes": ""
   },
   {
