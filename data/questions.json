@@ -278,11 +278,11 @@
     "question_id": "Q106",
     "category_id": "likes_holidays",
     "level": "A1",
-    "japanese_plain": "やすみの　ひに、なにを　しますか。",
+    "japanese_plain": "やすみの　ひに　なにを　しますか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "やすみの　ひに、"
+        "text": "やすみの　ひに"
       },
       {
         "group_id": "g2",
@@ -302,7 +302,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "やすみの　ひに、なにを　しますか。",
+    "audio_text": "やすみの　ひに　なにを　しますか。",
     "notes": ""
   },
   {
@@ -456,7 +456,7 @@
     "question_id": "Q204",
     "category_id": "daily_life",
     "level": "preA1",
-    "japanese_plain": "あさごはんは　なにを　たべますか。",
+    "japanese_plain": "あさごはんは　いつも　なにを　たべますか。",
     "japanese_segments": [
       {
         "group_id": "g1",
@@ -464,11 +464,11 @@
       },
       {
         "group_id": "g2",
-        "text": "なにを"
+        "text": "いつも"
       },
       {
         "group_id": "g3",
-        "text": "たべますか。"
+        "text": "なにを　たべますか。"
       }
     ],
     "answer_examples": [
@@ -480,7 +480,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "あさごはんは　なにを　たべますか。",
+    "audio_text": "あさごはんは　いつも　なにを　たべますか。",
     "notes": ""
   },
   {
@@ -768,11 +768,11 @@
     "question_id": "Q306",
     "category_id": "daily_life",
     "level": "A1",
-    "japanese_plain": "あした、なにを　しますか。",
+    "japanese_plain": "あした　なにを　しますか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "あした、"
+        "text": "あした"
       },
       {
         "group_id": "g2",
@@ -792,7 +792,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "あした、なにを　しますか。",
+    "audio_text": "あした　なにを　しますか。",
     "notes": ""
   },
   {
@@ -911,31 +911,35 @@
     "question_id": "Q405",
     "category_id": "japanese_learning",
     "level": "A1",
-    "japanese_plain": "どこで　にほんごを　べんきょうしましたか。",
+    "japanese_plain": "おくにでは　どこで　にほんごを　べんきょうしましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "どこで"
+        "text": "おくにでは"
       },
       {
         "group_id": "g2",
-        "text": "にほんごを"
+        "text": "どこで"
       },
       {
         "group_id": "g3",
+        "text": "にほんごを"
+      },
+      {
+        "group_id": "g4",
         "text": "べんきょうしましたか。"
       }
     ],
     "answer_examples": [
       "がっこうで　べんきょうしました。",
-      "ベトナムで　べんきょうしました。"
+      "センターで　べんきょうしました。"
     ],
     "answer_pattern": "〇〇で　べんきょうしました。",
     "enabled": true,
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "どこで　にほんごを　べんきょうしましたか。",
+    "audio_text": "おくにでは　どこで　にほんごを　べんきょうしましたか。",
     "notes": ""
   },
   {
@@ -1004,11 +1008,11 @@
     "question_id": "Q408",
     "category_id": "japanese_learning",
     "level": "A1",
-    "japanese_plain": "にほんごは　どうですか。",
+    "japanese_plain": "にほんごの　べんきょうは　どうですか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "にほんごは"
+        "text": "にほんごの　べんきょうは"
       },
       {
         "group_id": "g2",
@@ -1024,7 +1028,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "にほんごは　どうですか。",
+    "audio_text": "にほんごの　べんきょうは　どうですか。",
     "notes": ""
   },
   {
@@ -1089,15 +1093,15 @@
     "question_id": "Q503",
     "category_id": "company_work",
     "level": "preA1",
-    "japanese_plain": "どんな　しごとですか。",
+    "japanese_plain": "あなたの　しごとは　どんな　しごとですか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "どんな"
+        "text": "あなたの　しごとは"
       },
       {
         "group_id": "g2",
-        "text": "しごとですか。"
+        "text": "どんな　しごとですか。"
       }
     ],
     "answer_examples": [
@@ -1105,12 +1109,12 @@
       "しょくひんの　しごとです。"
     ],
     "answer_pattern": "〇〇の　しごとです。",
-    "enabled": true,
-    "include_in_random": true,
+    "enabled": false,
+    "include_in_random": false,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "どんな　しごとですか。",
-    "notes": ""
+    "audio_text": "あなたの　しごとは　どんな　しごとですか。",
+    "notes": "削除候補。Q507と内容が重なるため、現在は非表示。"
   },
   {
     "question_id": "Q504",
@@ -1168,11 +1172,11 @@
     "question_id": "Q506",
     "category_id": "company_work",
     "level": "preA1",
-    "japanese_plain": "しごとの　やすみは　なんようびですか。",
+    "japanese_plain": "やすみは　なんようびですか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "しごとの　やすみは"
+        "text": "やすみは"
       },
       {
         "group_id": "g2",
@@ -1187,7 +1191,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "しごとの　やすみは　なんようびですか。",
+    "audio_text": "やすみは　なんようびですか。",
     "notes": ""
   },
   {
@@ -1315,18 +1319,22 @@
     "question_id": "Q511",
     "category_id": "company_work",
     "level": "A1",
-    "japanese_plain": "ひるごはんは　どこで　たべますか。",
+    "japanese_plain": "しごとの　とき　ひるごはんは　どこで　たべますか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "ひるごはんは"
+        "text": "しごとの　とき"
       },
       {
         "group_id": "g2",
-        "text": "どこで"
+        "text": "ひるごはんは"
       },
       {
         "group_id": "g3",
+        "text": "どこで"
+      },
+      {
+        "group_id": "g4",
         "text": "たべますか。"
       }
     ],
@@ -1339,18 +1347,18 @@
     "include_in_random": false,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "ひるごはんは　どこで　たべますか。",
+    "audio_text": "しごとの　とき　ひるごはんは　どこで　たべますか。",
     "notes": "追加候補。"
   },
   {
     "question_id": "Q601",
     "category_id": "daily_life",
     "level": "A1",
-    "japanese_plain": "きのう、なにを　しましたか。",
+    "japanese_plain": "きのう　なにを　しましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "きのう、"
+        "text": "きのう"
       },
       {
         "group_id": "g2",
@@ -1370,18 +1378,18 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "きのう、なにを　しましたか。",
+    "audio_text": "きのう　なにを　しましたか。",
     "notes": ""
   },
   {
     "question_id": "Q602",
     "category_id": "daily_life",
     "level": "A1",
-    "japanese_plain": "きのう、なにを　たべましたか。",
+    "japanese_plain": "きのう　なにを　たべましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "きのう、"
+        "text": "きのう"
       },
       {
         "group_id": "g2",
@@ -1401,18 +1409,18 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "きのう、なにを　たべましたか。",
+    "audio_text": "きのう　なにを　たべましたか。",
     "notes": ""
   },
   {
     "question_id": "Q603",
     "category_id": "daily_life",
     "level": "A1",
-    "japanese_plain": "きのう、なんじに　ねましたか。",
+    "japanese_plain": "きのう　なんじに　ねましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "きのう、"
+        "text": "きのう"
       },
       {
         "group_id": "g2",
@@ -1431,7 +1439,7 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "きのう、なんじに　ねましたか。",
+    "audio_text": "きのう　なんじに　ねましたか。",
     "notes": ""
   },
   {
@@ -1469,11 +1477,11 @@
     "question_id": "Q605",
     "category_id": "likes_holidays",
     "level": "A1",
-    "japanese_plain": "せんしゅうの　やすみに、なにを　しましたか。",
+    "japanese_plain": "せんしゅうの　やすみに　なにを　しましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "せんしゅうの　やすみに、"
+        "text": "せんしゅうの　やすみに"
       },
       {
         "group_id": "g2",
@@ -1493,18 +1501,18 @@
     "include_in_random": true,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "せんしゅうの　やすみに、なにを　しましたか。",
+    "audio_text": "せんしゅうの　やすみに　なにを　しましたか。",
     "notes": ""
   },
   {
     "question_id": "Q606",
     "category_id": "daily_life",
     "level": "A1",
-    "japanese_plain": "さいきん、なにを　かいましたか。",
+    "japanese_plain": "さいきん　なにを　かいましたか。",
     "japanese_segments": [
       {
         "group_id": "g1",
-        "text": "さいきん、"
+        "text": "さいきん"
       },
       {
         "group_id": "g2",
@@ -1524,7 +1532,7 @@
     "include_in_random": false,
     "personal": false,
     "follow_up_ids": [],
-    "audio_text": "さいきん、なにを　かいましたか。",
+    "audio_text": "さいきん　なにを　かいましたか。",
     "notes": "追加候補。「さいきん」が難しい。"
   },
   {
