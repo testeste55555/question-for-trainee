@@ -1,10 +1,18 @@
 const DATA_BASE='data/';
-const state={category:'',level:'both',translation:false,country:'',language:'',questions:[],categories:[],countries:[],languages:[],queue:[],history:[],index:-1,showTranslation:false,showAnswers:false};
+const state={category:'',level:'both',translation:false,country:'',language:'',questions:[],categories:[],countries:[],languages:[],translations:{},queue:[],history:[],index:-1,showTranslation:false,showAnswers:false};
 const $=s=>document.querySelector(s);
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 const labels={both:'preA1＋A1'};
+const palettes=[
+  {background:'#dceeff',border:'#4a90e2'},
+  {background:'#fff2b8',border:'#c99a00'},
+  {background:'#eadfff',border:'#8a63d2'},
+  {background:'#ffe2c2',border:'#d9781e'},
+  {background:'#d8f3ea',border:'#2a9d78'}
+];
 async function init(){
-  [state.questions,state.categories,state.countries,state.languages]=await Promise.all(['questions.json','categories.json','countries.json','languages.json'].map(f=>fetch(DATA_BASE+f).then(r=>r.json())));
+  const [questions,categories,countries,languages,enTranslations,idTranslations]=await Promise.all(['questions.json','categories.json','countries.json','languages.json','translations/en.json','translations/id.json'].map(f=>fetch(DATA_BASE+f).then(r=>{if(!r.ok)throw new Error(`${f}: ${r.status}`);return r.json()})));
+  Object.assign(state,{questions,categories,countries,languages,translations:{en:enTranslations,id:idTranslations}});
   const saved=JSON.parse(localStorage.getItem('questionAppSettings')||'{}');Object.assign(state,{category:saved.category||'',level:saved.level||'both',translation:!!saved.translation,country:saved.country||'',language:saved.language||''});
   renderSettings();bind();validateStart();
 }
@@ -35,12 +43,14 @@ function prev(){if(state.index<=0)return;resetPanels();state.index--;render()}
 function followup(){const q=current(),id=q.follow_up_ids?.[0];const child=state.questions.find(x=>x.question_id===id);if(!child)return;resetPanels();state.history=state.history.slice(0,state.index+1);state.history.push(child);state.index++;render()}
 function resetPanels(){state.showTranslation=false;state.showAnswers=false}
 function render(){const q=current();if(!q)return;const cat=state.categories.find(x=>x.category_id===q.category_id);const lang=state.languages.find(x=>x.language_id===state.language);$('#status').textContent=`${cat?.label_ja||''}　｜　${q.level}${state.translation&&lang?'　｜　'+lang.language_name_ja:''}`;renderQuestion(q);$('#answerList').innerHTML=q.answer_examples.map(x=>`<div>${esc(x)}</div>`).join('');$('#prev').disabled=state.index===0;$('#followup').classList.toggle('hidden',!q.follow_up_ids?.length);updatePanels()}
-function renderQuestion(q){const segments=q.japanese_segments?.length?q.japanese_segments:[{text:q.japanese_plain}];$('#question').classList.toggle('highlight',state.showTranslation&&translationAvailable());$('#question').innerHTML=segments.map(s=>`<span class="segment">${esc(s.text)}</span>`).join('<span aria-hidden="true"> </span>')}
-function translationAvailable(){return ['en','id'].includes(state.language)}
-function translated(q){const en={'Q001':'What is your name?','Q002':'What country are you from?','Q003':'Where do you live?','Q101':'What is your hobby?','Q201':'How are you?','Q301':'What day is it today?','Q303':'What time is it now?','Q401':'Do you like Japanese?','Q501':'What is the name of your company?','Q601':'What did you do yesterday?','Q701':'How old are you?'};const id={'Q001':'Siapa nama Anda?','Q002':'Anda berasal dari negara mana?','Q003':'Anda tinggal di mana?','Q101':'Apa hobi Anda?','Q201':'Apa kabar?','Q301':'Hari apa hari ini?','Q303':'Sekarang jam berapa?','Q401':'Apakah Anda suka bahasa Jepang?','Q501':'Apa nama perusahaan Anda?','Q601':'Apa yang Anda lakukan kemarin?','Q701':'Berapa umur Anda?'};return (state.language==='en'?en:id)[q.question_id]||q.japanese_plain}
+function paletteFor(q,groupId){const groups=(q.japanese_segments||[]).map(s=>s.group_id);const index=groups.indexOf(groupId);return palettes[(index<0?0:index)%palettes.length]}
+function segmentMarkup(q,s){const p=paletteFor(q,s.group_id);return `<span class="segment" data-group="${esc(s.group_id||'')}" style="--segment-bg:${p.background};--segment-border:${p.border}">${esc(s.text)}</span>`}
+function renderQuestion(q){const segments=q.japanese_segments?.length?q.japanese_segments:[{group_id:'g1',text:q.japanese_plain}];$('#question').classList.toggle('highlight',state.showTranslation&&translationAvailable(q));$('#question').innerHTML=segments.map(s=>segmentMarkup(q,s)).join('<span aria-hidden="true"> </span>')}
+function translationFor(q=current()){return q?state.translations[state.language]?.find(x=>x.question_id===q.question_id):null}
+function translationAvailable(q=current()){const entry=translationFor(q);return Boolean(entry&&entry.status==='approved'&&entry.plain)}
 function toggleTranslation(){if(!state.translation||!translationAvailable())return;state.showTranslation=!state.showTranslation;renderQuestion(current());updatePanels()}
 function toggleAnswers(){state.showAnswers=!state.showAnswers;updatePanels()}
-function updatePanels(){const available=state.translation&&translationAvailable();$('#toggleTranslation').disabled=!available;$('#toggleTranslation').textContent=state.showTranslation?'対訳を隠す':'対訳を表示';$('#translation').classList.toggle('hidden',!state.showTranslation);$('#translationNotice').classList.toggle('hidden',!state.translation||available);if(state.showTranslation)$('#translation').innerHTML=`<span class="segment">${esc(translated(current()))}</span>`;$('#answers').classList.toggle('hidden',!state.showAnswers);$('#toggleAnswers').textContent=state.showAnswers?'回答例を隠す':'回答例を表示'}
+function updatePanels(){const q=current(),entry=translationFor(q),available=state.translation&&translationAvailable(q);$('#toggleTranslation').disabled=!available;$('#toggleTranslation').textContent=state.showTranslation?'対訳を隠す':'対訳を表示';$('#translation').classList.toggle('hidden',!state.showTranslation||!available);$('#translationNotice').classList.toggle('hidden',!state.translation||available);if(state.showTranslation&&available){const segments=entry.segments?.length?entry.segments:[{group_id:'g1',text:entry.plain}];$('#translation').innerHTML=segments.map(s=>segmentMarkup(q,s)).join('<span aria-hidden="true"> </span>')}else $('#translation').replaceChildren();$('#answers').classList.toggle('hidden',!state.showAnswers);$('#toggleAnswers').textContent=state.showAnswers?'回答例を隠す':'回答例を表示'}
 function goHome(){$('#homeDialog').close();$('#quiz').classList.add('hidden');$('#home').classList.remove('hidden');state.history=[];state.queue=[];renderSettings();validateStart()}
 function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 init().catch(e=>{document.body.innerHTML='<p style="padding:2rem">データを読み込めませんでした。</p>';console.error(e)});
