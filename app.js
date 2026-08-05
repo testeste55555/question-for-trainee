@@ -1,0 +1,46 @@
+const DATA_BASE='data/';
+const state={category:'',level:'both',translation:false,country:'',language:'',questions:[],categories:[],countries:[],languages:[],queue:[],history:[],index:-1,showTranslation:false,showAnswers:false};
+const $=s=>document.querySelector(s);
+const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
+const labels={both:'preA1＋A1'};
+async function init(){
+  [state.questions,state.categories,state.countries,state.languages]=await Promise.all(['questions.json','categories.json','countries.json','languages.json'].map(f=>fetch(DATA_BASE+f).then(r=>r.json())));
+  const saved=JSON.parse(localStorage.getItem('questionAppSettings')||'{}');Object.assign(state,{category:saved.category||'',level:saved.level||'both',translation:!!saved.translation,country:saved.country||'',language:saved.language||''});
+  renderSettings();bind();validateStart();
+}
+function buttonChoice(text,value,group,selected){const b=document.createElement('button');b.className='choice'+(selected?' selected':'');b.textContent=text;b.dataset.value=value;b.onclick=()=>selectChoice(group,value);return b}
+function renderSettings(){
+  $('#categories').replaceChildren(...state.categories.filter(x=>x.enabled).map(x=>buttonChoice(x.label_ja,x.category_id,'category',state.category===x.category_id)),buttonChoice('すべて','all','category',state.category==='all'));
+  $('#levels').replaceChildren(...[['preA1','preA1'],['A1','A1'],['preA1＋A1','both']].map(x=>buttonChoice(x[0],x[1],'level',state.level===x[1])));
+  $('#translationMode').replaceChildren(buttonChoice('なし','off','translation',!state.translation),buttonChoice('あり','on','translation',state.translation));
+  $('#translationSettings').classList.toggle('hidden',!state.translation);
+  $('#country').replaceChildren(new Option('えらんでください',''),...state.countries.filter(x=>x.enabled).map(x=>new Option(x.country_name_ja,x.country_id)));
+  $('#country').value=state.country;renderLanguages();
+}
+function selectChoice(group,value){if(group==='translation')state.translation=value==='on';else state[group]=value;renderSettings();validateStart()}
+function renderLanguages(){const c=state.countries.find(x=>x.country_id===state.country);const needs=c?.requires_language_selection;$('#languageWrap').classList.toggle('hidden',!needs);if(c){if(!needs)state.language=c.default_language_id;else{$('#language').replaceChildren(new Option('えらんでください',''),...c.language_ids.map(id=>new Option(state.languages.find(x=>x.language_id===id)?.language_name_ja||id,id)));$('#language').value=state.language}}else state.language=''}
+function validateStart(){const c=state.countries.find(x=>x.country_id===state.country);$('#start').disabled=!(state.category&&state.level&&(!state.translation||(c&&(!c.requires_language_selection||state.language))))}
+function bind(){
+  $('#country').onchange=e=>{state.country=e.target.value;state.language='';renderLanguages();validateStart()};$('#language').onchange=e=>{state.language=e.target.value;validateStart()};
+  $('#start').onclick=start;$('#prev').onclick=prev;$('#next').onclick=next;$('#toggleTranslation').onclick=toggleTranslation;$('#toggleAnswers').onclick=toggleAnswers;$('#followup').onclick=followup;
+  $('#homeBtn').onclick=()=>$('#homeDialog').showModal();$('#cancelHome').onclick=()=>$('#homeDialog').close();$('#confirmHome').onclick=goHome;$('#endHome').onclick=()=>{$('#endDialog').close();goHome()};$('#restart').onclick=()=>{$('#endDialog').close();start()};
+  $('#fullscreen').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen?.();
+  addEventListener('keydown',e=>{if($('#quiz').classList.contains('hidden')||e.target.matches('select,button'))return;if(e.key==='ArrowLeft')prev();if(e.key==='ArrowRight')next();if(e.key.toLowerCase()==='t')toggleTranslation();if(e.key.toLowerCase()==='a')toggleAnswers();if(e.key.toLowerCase()==='h')$('#homeDialog').showModal()});
+}
+function eligible(){return state.questions.filter(q=>q.enabled&&q.include_in_random&&(state.category==='all'?!q.personal:q.category_id===state.category)&&(state.level==='both'||q.level===state.level))}
+function start(){localStorage.setItem('questionAppSettings',JSON.stringify({category:state.category,level:state.level,translation:state.translation,country:state.country,language:state.language}));state.queue=shuffle(eligible());state.history=[];state.index=-1;$('#home').classList.add('hidden');$('#quiz').classList.remove('hidden');next()}
+function current(){return state.history[state.index]}
+function next(){resetPanels();if(state.index<state.history.length-1){state.index++;render();return}if(!state.queue.length){$('#endDialog').showModal();return}state.history.push(state.queue.shift());state.index++;render()}
+function prev(){if(state.index<=0)return;resetPanels();state.index--;render()}
+function followup(){const q=current(),id=q.follow_up_ids?.[0];const child=state.questions.find(x=>x.question_id===id);if(!child)return;resetPanels();state.history=state.history.slice(0,state.index+1);state.history.push(child);state.index++;render()}
+function resetPanels(){state.showTranslation=false;state.showAnswers=false}
+function render(){const q=current();if(!q)return;const cat=state.categories.find(x=>x.category_id===q.category_id);const lang=state.languages.find(x=>x.language_id===state.language);$('#status').textContent=`${cat?.label_ja||''}　｜　${q.level}${state.translation&&lang?'　｜　'+lang.language_name_ja:''}`;renderQuestion(q);$('#answerList').innerHTML=q.answer_examples.map(x=>`<div>${esc(x)}</div>`).join('');$('#prev').disabled=state.index===0;$('#followup').classList.toggle('hidden',!q.follow_up_ids?.length);updatePanels()}
+function renderQuestion(q){const segments=q.japanese_segments?.length?q.japanese_segments:[{text:q.japanese_plain}];$('#question').classList.toggle('highlight',state.showTranslation&&translationAvailable());$('#question').innerHTML=segments.map(s=>`<span class="segment">${esc(s.text)}</span>`).join('<span aria-hidden="true"> </span>')}
+function translationAvailable(){return ['en','id'].includes(state.language)}
+function translated(q){const en={'Q001':'What is your name?','Q002':'What country are you from?','Q003':'Where do you live?','Q101':'What is your hobby?','Q201':'How are you?','Q301':'What day is it today?','Q303':'What time is it now?','Q401':'Do you like Japanese?','Q501':'What is the name of your company?','Q601':'What did you do yesterday?','Q701':'How old are you?'};const id={'Q001':'Siapa nama Anda?','Q002':'Anda berasal dari negara mana?','Q003':'Anda tinggal di mana?','Q101':'Apa hobi Anda?','Q201':'Apa kabar?','Q301':'Hari apa hari ini?','Q303':'Sekarang jam berapa?','Q401':'Apakah Anda suka bahasa Jepang?','Q501':'Apa nama perusahaan Anda?','Q601':'Apa yang Anda lakukan kemarin?','Q701':'Berapa umur Anda?'};return (state.language==='en'?en:id)[q.question_id]||q.japanese_plain}
+function toggleTranslation(){if(!state.translation||!translationAvailable())return;state.showTranslation=!state.showTranslation;renderQuestion(current());updatePanels()}
+function toggleAnswers(){state.showAnswers=!state.showAnswers;updatePanels()}
+function updatePanels(){const available=state.translation&&translationAvailable();$('#toggleTranslation').disabled=!available;$('#toggleTranslation').textContent=state.showTranslation?'対訳を隠す':'対訳を表示';$('#translation').classList.toggle('hidden',!state.showTranslation);$('#translationNotice').classList.toggle('hidden',!state.translation||available);if(state.showTranslation)$('#translation').innerHTML=`<span class="segment">${esc(translated(current()))}</span>`;$('#answers').classList.toggle('hidden',!state.showAnswers);$('#toggleAnswers').textContent=state.showAnswers?'回答例を隠す':'回答例を表示'}
+function goHome(){$('#homeDialog').close();$('#quiz').classList.add('hidden');$('#home').classList.remove('hidden');state.history=[];state.queue=[];renderSettings();validateStart()}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+init().catch(e=>{document.body.innerHTML='<p style="padding:2rem">データを読み込めませんでした。</p>';console.error(e)});
