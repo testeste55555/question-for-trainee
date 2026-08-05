@@ -1,0 +1,1174 @@
+[
+  {
+    "question_id": "Q001",
+    "plain": "Siapa nama Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Siapa"
+      },
+      {
+        "group_id": "g1",
+        "text": "nama Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q002",
+    "plain": "Anda berasal dari negara mana?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Anda berasal"
+      },
+      {
+        "group_id": "g2",
+        "text": "dari negara mana?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q003",
+    "plain": "Di mana Anda tinggal?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di mana"
+      },
+      {
+        "group_id": "g2",
+        "text": "Anda tinggal?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q004",
+    "plain": "Kapan Anda datang ke Jepang?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Kapan"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda datang"
+      },
+      {
+        "group_id": "g2",
+        "text": "ke Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q005",
+    "plain": "Bagaimana kehidupan di Jepang?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bagaimana"
+      },
+      {
+        "group_id": "g1",
+        "text": "kehidupan di Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q101",
+    "plain": "Apa hobi Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "hobi Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q102",
+    "plain": "Apa makanan kesukaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "makanan kesukaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q103",
+    "plain": "Apa minuman kesukaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "minuman kesukaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q104",
+    "plain": "Apa olahraga kesukaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "olahraga kesukaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q105",
+    "plain": "Apa warna kesukaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "warna kesukaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q106",
+    "plain": "Pada hari libur, apa yang Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Pada hari libur,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q107",
+    "plain": "Di Jepang, ke mana Anda ingin pergi?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di Jepang,"
+      },
+      {
+        "group_id": "g2",
+        "text": "ke mana"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda ingin pergi?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q108",
+    "plain": "Di Jepang, apa yang ingin Anda makan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di Jepang,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang ingin Anda makan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q201",
+    "plain": "Apakah Anda sehat?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Apakah Anda sehat?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q202",
+    "plain": "Setiap pagi, jam berapa Anda bangun?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Setiap pagi,"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda bangun?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q203",
+    "plain": "Setiap malam, jam berapa Anda tidur?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Setiap malam,"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda tidur?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q204",
+    "plain": "Untuk sarapan, apa yang Anda makan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Untuk sarapan,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda makan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q205",
+    "plain": "Bagaimana Anda pergi ke tempat kerja?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bagaimana"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda pergi"
+      },
+      {
+        "group_id": "g2",
+        "text": "ke tempat kerja?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q206",
+    "plain": "Berapa menit ke tempat kerja?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Berapa menit"
+      },
+      {
+        "group_id": "g1",
+        "text": "ke tempat kerja?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q207",
+    "plain": "Apakah Anda sering memasak?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Apakah Anda"
+      },
+      {
+        "group_id": "g1",
+        "text": "sering"
+      },
+      {
+        "group_id": "g2",
+        "text": "memasak?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q208",
+    "plain": "Di mana Anda berbelanja?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di mana"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda"
+      },
+      {
+        "group_id": "g2",
+        "text": "berbelanja?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q209",
+    "plain": "Dengan siapa Anda tinggal?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Dengan siapa"
+      },
+      {
+        "group_id": "g2",
+        "text": "Anda tinggal?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q301",
+    "plain": "Hari ini hari apa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hari ini"
+      },
+      {
+        "group_id": "g2",
+        "text": "hari apa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q302",
+    "plain": "Hari ini tanggal berapa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hari ini"
+      },
+      {
+        "group_id": "g2",
+        "text": "tanggal berapa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q303",
+    "plain": "Sekarang jam berapa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Sekarang"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q304",
+    "plain": "Bagaimana cuaca hari ini?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bagaimana"
+      },
+      {
+        "group_id": "g1",
+        "text": "cuaca hari ini?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q305",
+    "plain": "Besok hari apa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Besok"
+      },
+      {
+        "group_id": "g2",
+        "text": "hari apa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q306",
+    "plain": "Besok, apa yang akan Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Besok,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang akan Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q401",
+    "plain": "Apakah Anda suka bahasa Jepang?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apakah Anda suka"
+      },
+      {
+        "group_id": "g1",
+        "text": "bahasa Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q402",
+    "plain": "Apakah Anda bisa membaca hiragana?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apakah Anda bisa membaca"
+      },
+      {
+        "group_id": "g1",
+        "text": "hiragana?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q403",
+    "plain": "Apakah Anda bisa membaca katakana?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apakah Anda bisa membaca"
+      },
+      {
+        "group_id": "g1",
+        "text": "katakana?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q404",
+    "plain": "Setiap hari, apakah Anda belajar bahasa Jepang?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Setiap hari,"
+      },
+      {
+        "group_id": "g3",
+        "text": "apakah Anda belajar"
+      },
+      {
+        "group_id": "g2",
+        "text": "bahasa Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q405",
+    "plain": "Di mana Anda belajar bahasa Jepang?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di mana"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda belajar"
+      },
+      {
+        "group_id": "g2",
+        "text": "bahasa Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q406",
+    "plain": "Berapa lama Anda belajar bahasa Jepang?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Berapa lama"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda belajar"
+      },
+      {
+        "group_id": "g2",
+        "text": "bahasa Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q407",
+    "plain": "Dalam bahasa Jepang, apa yang sulit?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Dalam bahasa Jepang,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang sulit?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q408",
+    "plain": "Bagaimana bahasa Jepang?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bagaimana"
+      },
+      {
+        "group_id": "g1",
+        "text": "bahasa Jepang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q501",
+    "plain": "Apa nama perusahaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "nama perusahaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q502",
+    "plain": "Di mana perusahaan Anda berada?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Di mana"
+      },
+      {
+        "group_id": "g1",
+        "text": "perusahaan Anda"
+      },
+      {
+        "group_id": "g3",
+        "text": "berada?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q503",
+    "plain": "Apa pekerjaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apa"
+      },
+      {
+        "group_id": "g1",
+        "text": "pekerjaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q504",
+    "plain": "Perusahaan mulai jam berapa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Perusahaan mulai"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q505",
+    "plain": "Perusahaan selesai jam berapa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Perusahaan selesai"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q506",
+    "plain": "Hari libur hari apa?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hari libur"
+      },
+      {
+        "group_id": "g2",
+        "text": "hari apa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q507",
+    "plain": "Pekerjaan apa yang Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Pekerjaan apa"
+      },
+      {
+        "group_id": "g2",
+        "text": "yang Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q508",
+    "plain": "Di tempat kerja, apa yang Anda gunakan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di tempat kerja,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda gunakan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q509",
+    "plain": "Bagaimana pekerjaan Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bagaimana"
+      },
+      {
+        "group_id": "g1",
+        "text": "pekerjaan Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q510",
+    "plain": "Di tempat kerja, apa yang sulit?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Di tempat kerja,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang sulit?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q511",
+    "plain": "Di mana Anda makan siang?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Di mana"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda"
+      },
+      {
+        "group_id": "g1",
+        "text": "makan siang?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q601",
+    "plain": "Kemarin, apa yang Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Kemarin,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q602",
+    "plain": "Kemarin, apa yang Anda makan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Kemarin,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda makan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q603",
+    "plain": "Kemarin, jam berapa Anda tidur?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Kemarin,"
+      },
+      {
+        "group_id": "g2",
+        "text": "jam berapa"
+      },
+      {
+        "group_id": "g3",
+        "text": "Anda tidur?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q604",
+    "plain": "Pada libur berikutnya, apa yang akan Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Pada libur berikutnya,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang akan Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q605",
+    "plain": "Pada libur minggu lalu, apa yang Anda lakukan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Pada libur minggu lalu,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda lakukan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q606",
+    "plain": "Baru-baru ini, apa yang Anda beli?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Baru-baru ini,"
+      },
+      {
+        "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
+        "text": "yang Anda beli?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q701",
+    "plain": "Berapa umur Anda?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Berapa umur Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q702",
+    "plain": "Kapan ulang tahun Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Kapan"
+      },
+      {
+        "group_id": "g1",
+        "text": "ulang tahun Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q703",
+    "plain": "Berapa orang dalam keluarga Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Berapa orang"
+      },
+      {
+        "group_id": "g1",
+        "text": "dalam keluarga Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q704",
+    "plain": "Apakah Anda sudah menikah?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apakah Anda"
+      },
+      {
+        "group_id": "g1",
+        "text": "sudah menikah?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q705",
+    "plain": "Apakah Anda punya anak?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Apakah Anda punya"
+      },
+      {
+        "group_id": "g1",
+        "text": "anak?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q706",
+    "plain": "Berapa jumlah anak Anda?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Berapa"
+      },
+      {
+        "group_id": "g2",
+        "text": "jumlah anak Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q707",
+    "plain": "Berapa umur anak Anda?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Berapa umur"
+      },
+      {
+        "group_id": "g1",
+        "text": "anak Anda?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  }
+]
