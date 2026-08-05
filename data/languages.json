@@ -1,0 +1,142 @@
+[
+  {
+    "language_id": "vi",
+    "language_name_ja": "ベトナム語",
+    "language_name_native": "Tiếng Việt",
+    "language_code": "vi",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, Noto Sans Vietnamese, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "km",
+    "language_name_ja": "クメール語",
+    "language_name_native": "ភាសាខ្មែរ",
+    "language_code": "km",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Khmer, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "hi",
+    "language_name_ja": "ヒンディー語",
+    "language_name_native": "हिन्दी",
+    "language_code": "hi",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Devanagari, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "en",
+    "language_name_ja": "英語",
+    "language_name_native": "English",
+    "language_code": "en",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, Arial, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "fil",
+    "language_name_ja": "フィリピノ語（タガログ語）",
+    "language_name_native": "Filipino",
+    "language_code": "fil",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, Arial, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "lo",
+    "language_name_ja": "ラオ語",
+    "language_name_native": "ພາສາລາວ",
+    "language_code": "lo",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Lao, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "mn",
+    "language_name_ja": "モンゴル語",
+    "language_name_native": "Монгол хэл",
+    "language_code": "mn",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "si",
+    "language_name_ja": "シンハラ語",
+    "language_name_native": "සිංහල",
+    "language_code": "si",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Sinhala, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "ta",
+    "language_name_ja": "タミル語",
+    "language_name_native": "தமிழ்",
+    "language_code": "ta",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Tamil, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "my",
+    "language_name_ja": "ミャンマー語",
+    "language_name_native": "မြန်မာဘာသာ",
+    "language_code": "my",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Myanmar, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "th",
+    "language_name_ja": "タイ語",
+    "language_name_native": "ภาษาไทย",
+    "language_code": "th",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Thai, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "id",
+    "language_name_ja": "インドネシア語",
+    "language_name_native": "Bahasa Indonesia",
+    "language_code": "id",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, Arial, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "ne",
+    "language_name_ja": "ネパール語",
+    "language_name_native": "नेपाली",
+    "language_code": "ne",
+    "direction": "ltr",
+    "font_stack": "Noto Sans Devanagari, Noto Sans, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  },
+  {
+    "language_id": "tet",
+    "language_name_ja": "テトゥン語",
+    "language_name_native": "Tetun",
+    "language_code": "tet",
+    "direction": "ltr",
+    "font_stack": "Noto Sans, Arial, sans-serif",
+    "enabled": true,
+    "translation_available": false
+  }
+]
