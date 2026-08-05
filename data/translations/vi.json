@@ -1,0 +1,1174 @@
+[
+  {
+    "question_id": "Q001",
+    "plain": "Tên bạn là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Tên bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q002",
+    "plain": "Bạn đến từ quốc gia nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bạn đến từ quốc gia"
+      },
+      {
+        "group_id": "g2",
+        "text": "nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q003",
+    "plain": "Bạn đang sống ở đâu?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn đang sống"
+      },
+      {
+        "group_id": "g1",
+        "text": "ở đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q004",
+    "plain": "Khi nào bạn đến Nhật Bản?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Khi nào"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đến"
+      },
+      {
+        "group_id": "g2",
+        "text": "Nhật Bản?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q005",
+    "plain": "Cuộc sống ở Nhật Bản thế nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Cuộc sống ở Nhật Bản"
+      },
+      {
+        "group_id": "g2",
+        "text": "thế nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q101",
+    "plain": "Sở thích của bạn là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Sở thích của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q102",
+    "plain": "Món ăn bạn thích là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Món ăn bạn thích"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q103",
+    "plain": "Đồ uống bạn thích là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Đồ uống bạn thích"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q104",
+    "plain": "Môn thể thao bạn thích là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Môn thể thao bạn thích"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q105",
+    "plain": "Màu bạn thích là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Màu bạn thích"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q106",
+    "plain": "Vào ngày nghỉ, bạn làm gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Vào ngày nghỉ,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q107",
+    "plain": "Ở Nhật Bản, bạn muốn đi đâu?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ở Nhật Bản,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn muốn đi"
+      },
+      {
+        "group_id": "g2",
+        "text": "đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q108",
+    "plain": "Ở Nhật Bản, bạn muốn ăn món gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ở Nhật Bản,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn muốn ăn"
+      },
+      {
+        "group_id": "g2",
+        "text": "món gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q201",
+    "plain": "Bạn có khỏe không?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bạn có khỏe không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q202",
+    "plain": "Mỗi sáng, bạn thức dậy lúc mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Mỗi sáng,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn thức dậy lúc"
+      },
+      {
+        "group_id": "g2",
+        "text": "mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q203",
+    "plain": "Mỗi tối, bạn đi ngủ lúc mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Mỗi tối,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đi ngủ lúc"
+      },
+      {
+        "group_id": "g2",
+        "text": "mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q204",
+    "plain": "Bữa sáng, bạn ăn gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bữa sáng,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn ăn"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q205",
+    "plain": "Bạn đi đến công ty bằng phương tiện gì?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn đi"
+      },
+      {
+        "group_id": "g2",
+        "text": "đến công ty"
+      },
+      {
+        "group_id": "g1",
+        "text": "bằng phương tiện gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q206",
+    "plain": "Đến công ty mất bao nhiêu phút?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Đến công ty"
+      },
+      {
+        "group_id": "g2",
+        "text": "mất bao nhiêu phút?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q207",
+    "plain": "Bạn có thường nấu ăn không?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn có"
+      },
+      {
+        "group_id": "g1",
+        "text": "thường"
+      },
+      {
+        "group_id": "g2",
+        "text": "nấu ăn không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q208",
+    "plain": "Bạn mua sắm ở đâu?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "mua sắm"
+      },
+      {
+        "group_id": "g1",
+        "text": "ở đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q209",
+    "plain": "Bạn đang sống cùng ai?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn đang sống"
+      },
+      {
+        "group_id": "g1",
+        "text": "cùng ai?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q301",
+    "plain": "Hôm nay là thứ mấy?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hôm nay"
+      },
+      {
+        "group_id": "g2",
+        "text": "là thứ mấy?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q302",
+    "plain": "Hôm nay là ngày mấy tháng mấy?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hôm nay"
+      },
+      {
+        "group_id": "g2",
+        "text": "là ngày mấy tháng mấy?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q303",
+    "plain": "Bây giờ là mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bây giờ"
+      },
+      {
+        "group_id": "g2",
+        "text": "là mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q304",
+    "plain": "Thời tiết hôm nay thế nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Thời tiết hôm nay"
+      },
+      {
+        "group_id": "g2",
+        "text": "thế nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q305",
+    "plain": "Ngày mai là thứ mấy?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ngày mai"
+      },
+      {
+        "group_id": "g2",
+        "text": "là thứ mấy?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q306",
+    "plain": "Ngày mai, bạn sẽ làm gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ngày mai,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn sẽ làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q401",
+    "plain": "Bạn có thích tiếng Nhật không?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn có thích"
+      },
+      {
+        "group_id": "g1",
+        "text": "tiếng Nhật không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q402",
+    "plain": "Bạn có đọc được hiragana không?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn có đọc được"
+      },
+      {
+        "group_id": "g1",
+        "text": "hiragana không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q403",
+    "plain": "Bạn có đọc được katakana không?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn có đọc được"
+      },
+      {
+        "group_id": "g1",
+        "text": "katakana không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q404",
+    "plain": "Hằng ngày, bạn có học tiếng Nhật không?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hằng ngày,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn có học"
+      },
+      {
+        "group_id": "g2",
+        "text": "tiếng Nhật không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q405",
+    "plain": "Bạn đã học tiếng Nhật ở đâu?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn đã học"
+      },
+      {
+        "group_id": "g2",
+        "text": "tiếng Nhật"
+      },
+      {
+        "group_id": "g1",
+        "text": "ở đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q406",
+    "plain": "Bạn đã học tiếng Nhật trong bao lâu?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn đã học"
+      },
+      {
+        "group_id": "g2",
+        "text": "tiếng Nhật"
+      },
+      {
+        "group_id": "g1",
+        "text": "trong bao lâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q407",
+    "plain": "Trong tiếng Nhật, điều gì khó?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Trong tiếng Nhật,"
+      },
+      {
+        "group_id": "g2",
+        "text": "điều gì"
+      },
+      {
+        "group_id": "g3",
+        "text": "khó?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q408",
+    "plain": "Tiếng Nhật thế nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Tiếng Nhật"
+      },
+      {
+        "group_id": "g2",
+        "text": "thế nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q501",
+    "plain": "Tên công ty của bạn là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Tên công ty của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q502",
+    "plain": "Công ty của bạn ở đâu?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Công ty của bạn"
+      },
+      {
+        "group_id": "g3",
+        "text": "ở"
+      },
+      {
+        "group_id": "g2",
+        "text": "đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q503",
+    "plain": "Công việc của bạn là gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Công việc của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q504",
+    "plain": "Công việc bắt đầu lúc mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Công việc"
+      },
+      {
+        "group_id": "g2",
+        "text": "bắt đầu lúc mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q505",
+    "plain": "Công việc kết thúc lúc mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Công việc"
+      },
+      {
+        "group_id": "g2",
+        "text": "kết thúc lúc mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q506",
+    "plain": "Ngày nghỉ của bạn là thứ mấy?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ngày nghỉ của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là thứ mấy?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q507",
+    "plain": "Bạn đang làm công việc gì?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn đang làm"
+      },
+      {
+        "group_id": "g1",
+        "text": "công việc gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q508",
+    "plain": "Ở chỗ làm, bạn sử dụng gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Ở chỗ làm,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn sử dụng"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q509",
+    "plain": "Công việc của bạn thế nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Công việc của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "thế nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q510",
+    "plain": "Trong công việc, điều gì khó?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Trong công việc,"
+      },
+      {
+        "group_id": "g2",
+        "text": "điều gì"
+      },
+      {
+        "group_id": "g3",
+        "text": "khó?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q511",
+    "plain": "Bạn ăn bữa trưa ở đâu?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Bạn ăn"
+      },
+      {
+        "group_id": "g1",
+        "text": "bữa trưa"
+      },
+      {
+        "group_id": "g2",
+        "text": "ở đâu?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q601",
+    "plain": "Hôm qua, bạn đã làm gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hôm qua,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đã làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q602",
+    "plain": "Hôm qua, bạn đã ăn gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hôm qua,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đã ăn"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q603",
+    "plain": "Hôm qua, bạn đi ngủ lúc mấy giờ?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Hôm qua,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đi ngủ lúc"
+      },
+      {
+        "group_id": "g2",
+        "text": "mấy giờ?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q604",
+    "plain": "Vào ngày nghỉ tới, bạn sẽ làm gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Vào ngày nghỉ tới,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn sẽ làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q605",
+    "plain": "Vào ngày nghỉ tuần trước, bạn đã làm gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Vào ngày nghỉ tuần trước,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đã làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q606",
+    "plain": "Gần đây, bạn đã mua gì?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Gần đây,"
+      },
+      {
+        "group_id": "g3",
+        "text": "bạn đã mua"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q701",
+    "plain": "Bạn bao nhiêu tuổi?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Bạn bao nhiêu tuổi?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q702",
+    "plain": "Sinh nhật của bạn là ngày nào?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Sinh nhật của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "là ngày nào?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q703",
+    "plain": "Gia đình bạn có bao nhiêu người?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Gia đình bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "có bao nhiêu người?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q704",
+    "plain": "Bạn đã kết hôn chưa?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn"
+      },
+      {
+        "group_id": "g1",
+        "text": "đã kết hôn chưa?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q705",
+    "plain": "Bạn có con không?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn có"
+      },
+      {
+        "group_id": "g1",
+        "text": "con không?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q706",
+    "plain": "Bạn có mấy người con?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Bạn có"
+      },
+      {
+        "group_id": "g1",
+        "text": "mấy người con?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q707",
+    "plain": "Con của bạn bao nhiêu tuổi?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Con của bạn"
+      },
+      {
+        "group_id": "g2",
+        "text": "bao nhiêu tuổi?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  }
+]
