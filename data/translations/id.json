@@ -309,19 +309,23 @@
   },
   {
     "question_id": "Q204",
-    "plain": "Untuk sarapan, apa yang Anda makan?",
+    "plain": "Untuk sarapan, apa yang biasanya Anda makan?",
     "segments": [
       {
         "group_id": "g1",
         "text": "Untuk sarapan,"
       },
       {
+        "group_id": "g3",
+        "text": "apa yang"
+      },
+      {
         "group_id": "g2",
-        "text": "apa"
+        "text": "biasanya"
       },
       {
         "group_id": "g3",
-        "text": "yang Anda makan?"
+        "text": "Anda makan?"
       }
     ],
     "status": "approved",
@@ -621,18 +625,22 @@
   },
   {
     "question_id": "Q405",
-    "plain": "Di mana Anda belajar bahasa Jepang?",
+    "plain": "Di negara asal Anda, di mana Anda belajar bahasa Jepang?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Di mana"
-      },
-      {
-        "group_id": "g3",
-        "text": "Anda belajar"
+        "text": "Di negara asal Anda,"
       },
       {
         "group_id": "g2",
+        "text": "di mana"
+      },
+      {
+        "group_id": "g4",
+        "text": "Anda belajar"
+      },
+      {
+        "group_id": "g3",
         "text": "bahasa Jepang?"
       }
     ],
@@ -687,7 +695,7 @@
   },
   {
     "question_id": "Q408",
-    "plain": "Bagaimana bahasa Jepang?",
+    "plain": "Bagaimana belajar bahasa Jepang?",
     "segments": [
       {
         "group_id": "g2",
@@ -695,7 +703,7 @@
       },
       {
         "group_id": "g1",
-        "text": "bahasa Jepang?"
+        "text": "belajar bahasa Jepang?"
       }
     ],
     "status": "approved",
@@ -901,18 +909,22 @@
   },
   {
     "question_id": "Q511",
-    "plain": "Di mana Anda makan siang?",
+    "plain": "Saat bekerja, di mana Anda makan siang?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Di mana"
+        "group_id": "g1",
+        "text": "Saat bekerja,"
       },
       {
         "group_id": "g3",
+        "text": "di mana"
+      },
+      {
+        "group_id": "g4",
         "text": "Anda"
       },
       {
-        "group_id": "g1",
+        "group_id": "g2",
         "text": "makan siang?"
       }
     ],
