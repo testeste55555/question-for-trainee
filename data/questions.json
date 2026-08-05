@@ -1,0 +1,1714 @@
+[
+  {
+    "question_id": "Q001",
+    "category_id": "self_intro",
+    "level": "preA1",
+    "japanese_plain": "おなまえは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "おなまえは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "〇〇です。",
+      "〇〇と　いいます。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "おなまえは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q002",
+    "category_id": "self_intro",
+    "level": "preA1",
+    "japanese_plain": "くには　どこですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "くには"
+      },
+      {
+        "group_id": "g2",
+        "text": "どこですか。"
+      }
+    ],
+    "answer_examples": [
+      "ベトナムです。",
+      "インドネシアです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "くには　どこですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q003",
+    "category_id": "self_intro",
+    "level": "preA1",
+    "japanese_plain": "どこに　すんでいますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どこに"
+      },
+      {
+        "group_id": "g2",
+        "text": "すんでいますか。"
+      }
+    ],
+    "answer_examples": [
+      "ひろしましに　すんでいます。",
+      "〇〇ちょうに　すんでいます。"
+    ],
+    "answer_pattern": "〇〇に　すんでいます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どこに　すんでいますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q004",
+    "category_id": "self_intro",
+    "level": "A1",
+    "japanese_plain": "いつ　にほんに　きましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "いつ"
+      },
+      {
+        "group_id": "g2",
+        "text": "にほんに"
+      },
+      {
+        "group_id": "g3",
+        "text": "きましたか。"
+      }
+    ],
+    "answer_examples": [
+      "〇がつに　きました。",
+      "〇ねん〇がつに　きました。"
+    ],
+    "answer_pattern": "〇ねん〇がつに　きました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "いつ　にほんに　きましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q005",
+    "category_id": "self_intro",
+    "level": "A1",
+    "japanese_plain": "にほんの　せいかつは　どうですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんの　せいかつは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どうですか。"
+      }
+    ],
+    "answer_examples": [
+      "たのしいです。",
+      "いそがしいです。",
+      "だいじょうぶです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんの　せいかつは　どうですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q101",
+    "category_id": "likes_holidays",
+    "level": "preA1",
+    "japanese_plain": "しゅみは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "しゅみは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "サッカーです。",
+      "おんがくを　ききます。"
+    ],
+    "answer_pattern": "〇〇です。／〇〇を　します。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "しゅみは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q102",
+    "category_id": "likes_holidays",
+    "level": "preA1",
+    "japanese_plain": "すきな　たべものは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "すきな　たべものは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "カレーです。",
+      "ラーメンです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "すきな　たべものは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q103",
+    "category_id": "likes_holidays",
+    "level": "preA1",
+    "japanese_plain": "すきな　のみものは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "すきな　のみものは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "コーヒーです。",
+      "おちゃです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "すきな　のみものは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q104",
+    "category_id": "likes_holidays",
+    "level": "preA1",
+    "japanese_plain": "すきな　スポーツは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "すきな　スポーツは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "サッカーです。",
+      "バドミントンです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "すきな　スポーツは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q105",
+    "category_id": "likes_holidays",
+    "level": "preA1",
+    "japanese_plain": "すきな　いろは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "すきな　いろは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "あおです。",
+      "しろです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "すきな　いろは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q106",
+    "category_id": "likes_holidays",
+    "level": "A1",
+    "japanese_plain": "やすみの　ひに、なにを　しますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "やすみの　ひに、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しますか。"
+      }
+    ],
+    "answer_examples": [
+      "かいものを　します。",
+      "こうえんへ　いきます。"
+    ],
+    "answer_pattern": "〇〇を　します。／〇〇へ　いきます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "やすみの　ひに、なにを　しますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q107",
+    "category_id": "likes_holidays",
+    "level": "A1",
+    "japanese_plain": "にほんで　どこへ　いきたいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんで"
+      },
+      {
+        "group_id": "g2",
+        "text": "どこへ"
+      },
+      {
+        "group_id": "g3",
+        "text": "いきたいですか。"
+      }
+    ],
+    "answer_examples": [
+      "きょうとへ　いきたいです。",
+      "とうきょうへ　いきたいです。"
+    ],
+    "answer_pattern": "〇〇へ　いきたいです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんで　どこへ　いきたいですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q108",
+    "category_id": "likes_holidays",
+    "level": "A1",
+    "japanese_plain": "にほんで　なにを　たべたいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんで"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "たべたいですか。"
+      }
+    ],
+    "answer_examples": [
+      "すしを　たべたいです。",
+      "ラーメンを　たべたいです。"
+    ],
+    "answer_pattern": "〇〇を　たべたいです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんで　なにを　たべたいですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q201",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "おげんきですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "おげんきですか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、げんきです。",
+      "すこし　つかれています。"
+    ],
+    "answer_pattern": "はい、〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "おげんきですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q202",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "まいあさ　なんじに　おきますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "まいあさ"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじに"
+      },
+      {
+        "group_id": "g3",
+        "text": "おきますか。"
+      }
+    ],
+    "answer_examples": [
+      "ろくじに　おきます。",
+      "しちじに　おきます。"
+    ],
+    "answer_pattern": "〇じに　おきます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "まいあさ　なんじに　おきますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q203",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "まいばん　なんじに　ねますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "まいばん"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじに"
+      },
+      {
+        "group_id": "g3",
+        "text": "ねますか。"
+      }
+    ],
+    "answer_examples": [
+      "じゅうじに　ねます。",
+      "じゅういちじに　ねます。"
+    ],
+    "answer_pattern": "〇じに　ねます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "まいばん　なんじに　ねますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q204",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "あさごはんは　なにを　たべますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "あさごはんは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "たべますか。"
+      }
+    ],
+    "answer_examples": [
+      "パンを　たべます。",
+      "ごはんを　たべます。"
+    ],
+    "answer_pattern": "〇〇を　たべます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "あさごはんは　なにを　たべますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q205",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "どうやって　かいしゃへ　いきますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どうやって"
+      },
+      {
+        "group_id": "g2",
+        "text": "かいしゃへ"
+      },
+      {
+        "group_id": "g3",
+        "text": "いきますか。"
+      }
+    ],
+    "answer_examples": [
+      "じてんしゃで　いきます。",
+      "あるいて　いきます。"
+    ],
+    "answer_pattern": "〇〇で　いきます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どうやって　かいしゃへ　いきますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q206",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "かいしゃまで　なんぷんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かいしゃまで"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんぷんですか。"
+      }
+    ],
+    "answer_examples": [
+      "じゅっぷんです。",
+      "さんじゅっぷんです。"
+    ],
+    "answer_pattern": "〇ぷんです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "かいしゃまで　なんぷんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q207",
+    "category_id": "daily_life",
+    "level": "preA1",
+    "japanese_plain": "よく　りょうりを　しますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "よく"
+      },
+      {
+        "group_id": "g2",
+        "text": "りょうりを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、します。",
+      "いいえ、しません。"
+    ],
+    "answer_pattern": "はい、します。／いいえ、しません。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "よく　りょうりを　しますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q208",
+    "category_id": "daily_life",
+    "level": "A1",
+    "japanese_plain": "どこで　かいものを　しますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どこで"
+      },
+      {
+        "group_id": "g2",
+        "text": "かいものを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しますか。"
+      }
+    ],
+    "answer_examples": [
+      "スーパーで　かいものを　します。",
+      "コンビニで　かいものを　します。"
+    ],
+    "answer_pattern": "〇〇で　かいものを　します。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どこで　かいものを　しますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q209",
+    "category_id": "daily_life",
+    "level": "A1",
+    "japanese_plain": "だれと　すんでいますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "だれと"
+      },
+      {
+        "group_id": "g2",
+        "text": "すんでいますか。"
+      }
+    ],
+    "answer_examples": [
+      "ともだちと　すんでいます。",
+      "ひとりで　すんでいます。"
+    ],
+    "answer_pattern": "〇〇と　すんでいます。",
+    "enabled": false,
+    "include_in_random": false,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "だれと　すんでいますか。",
+    "notes": "追加候補。生活状況に関する質問。"
+  },
+  {
+    "question_id": "Q301",
+    "category_id": "date_time",
+    "level": "preA1",
+    "japanese_plain": "きょうは　なんようびですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きょうは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんようびですか。"
+      }
+    ],
+    "answer_examples": [
+      "げつようびです。",
+      "きんようびです。"
+    ],
+    "answer_pattern": "〇ようびです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きょうは　なんようびですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q302",
+    "category_id": "date_time",
+    "level": "preA1",
+    "japanese_plain": "きょうは　なんがつ　なんにちですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きょうは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんがつ　なんにちですか。"
+      }
+    ],
+    "answer_examples": [
+      "はちがつ　いつかです。"
+    ],
+    "answer_pattern": "〇がつ〇にちです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きょうは　なんがつ　なんにちですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q303",
+    "category_id": "date_time",
+    "level": "preA1",
+    "japanese_plain": "いま　なんじですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "いま"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじですか。"
+      }
+    ],
+    "answer_examples": [
+      "くじです。",
+      "さんじ　はんです。"
+    ],
+    "answer_pattern": "〇じ〇ぷんです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "いま　なんじですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q304",
+    "category_id": "date_time",
+    "level": "preA1",
+    "japanese_plain": "きょうの　てんきは　どうですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きょうの　てんきは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どうですか。"
+      }
+    ],
+    "answer_examples": [
+      "はれです。",
+      "あめです。",
+      "くもりです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きょうの　てんきは　どうですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q305",
+    "category_id": "date_time",
+    "level": "preA1",
+    "japanese_plain": "あしたは　なんようびですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "あしたは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんようびですか。"
+      }
+    ],
+    "answer_examples": [
+      "もくようびです。"
+    ],
+    "answer_pattern": "〇ようびです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "あしたは　なんようびですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q306",
+    "category_id": "date_time",
+    "level": "A1",
+    "japanese_plain": "あした、なにを　しますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "あした、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しますか。"
+      }
+    ],
+    "answer_examples": [
+      "しごとを　します。",
+      "かいものを　します。"
+    ],
+    "answer_pattern": "〇〇を　します。／〇〇へ　いきます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "あした、なにを　しますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q401",
+    "category_id": "japanese_learning",
+    "level": "preA1",
+    "japanese_plain": "にほんごは　すきですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんごは"
+      },
+      {
+        "group_id": "g2",
+        "text": "すきですか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、すきです。",
+      "いいえ、あまり　すきではありません。"
+    ],
+    "answer_pattern": "はい、すきです。／いいえ、〇〇。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんごは　すきですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q402",
+    "category_id": "japanese_learning",
+    "level": "preA1",
+    "japanese_plain": "ひらがなが　よめますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "ひらがなが"
+      },
+      {
+        "group_id": "g2",
+        "text": "よめますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、よめます。",
+      "すこし　よめます。"
+    ],
+    "answer_pattern": "はい、よめます。／すこし　よめます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "ひらがなが　よめますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q403",
+    "category_id": "japanese_learning",
+    "level": "preA1",
+    "japanese_plain": "カタカナが　よめますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "カタカナが"
+      },
+      {
+        "group_id": "g2",
+        "text": "よめますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、よめます。",
+      "すこし　よめます。"
+    ],
+    "answer_pattern": "はい、よめます。／すこし　よめます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "カタカナが　よめますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q404",
+    "category_id": "japanese_learning",
+    "level": "preA1",
+    "japanese_plain": "まいにち　にほんごを　べんきょうしますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "まいにち"
+      },
+      {
+        "group_id": "g2",
+        "text": "にほんごを"
+      },
+      {
+        "group_id": "g3",
+        "text": "べんきょうしますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、べんきょうします。",
+      "いいえ、しません。"
+    ],
+    "answer_pattern": "はい、べんきょうします。／いいえ、しません。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "まいにち　にほんごを　べんきょうしますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q405",
+    "category_id": "japanese_learning",
+    "level": "A1",
+    "japanese_plain": "どこで　にほんごを　べんきょうしましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どこで"
+      },
+      {
+        "group_id": "g2",
+        "text": "にほんごを"
+      },
+      {
+        "group_id": "g3",
+        "text": "べんきょうしましたか。"
+      }
+    ],
+    "answer_examples": [
+      "がっこうで　べんきょうしました。",
+      "くにで　べんきょうしました。"
+    ],
+    "answer_pattern": "〇〇で　べんきょうしました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どこで　にほんごを　べんきょうしましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q406",
+    "category_id": "japanese_learning",
+    "level": "A1",
+    "japanese_plain": "どのくらい　にほんごを　べんきょうしましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どのくらい"
+      },
+      {
+        "group_id": "g2",
+        "text": "にほんごを"
+      },
+      {
+        "group_id": "g3",
+        "text": "べんきょうしましたか。"
+      }
+    ],
+    "answer_examples": [
+      "ろっかげつ　べんきょうしました。",
+      "いちねん　べんきょうしました。"
+    ],
+    "answer_pattern": "〇かげつ／〇ねん　べんきょうしました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どのくらい　にほんごを　べんきょうしましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q407",
+    "category_id": "japanese_learning",
+    "level": "A1",
+    "japanese_plain": "にほんごで　なにが　むずかしいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんごで"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにが"
+      },
+      {
+        "group_id": "g3",
+        "text": "むずかしいですか。"
+      }
+    ],
+    "answer_examples": [
+      "かんじが　むずかしいです。",
+      "はなすことが　むずかしいです。"
+    ],
+    "answer_pattern": "〇〇が　むずかしいです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんごで　なにが　むずかしいですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q408",
+    "category_id": "japanese_learning",
+    "level": "A1",
+    "japanese_plain": "にほんごは　どうですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "にほんごは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どうですか。"
+      }
+    ],
+    "answer_examples": [
+      "たのしいです。",
+      "むずかしいです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "にほんごは　どうですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q501",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "かいしゃの　なまえは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かいしゃの　なまえは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "〇〇です。",
+      "〇〇かぶしきがいしゃです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "かいしゃの　なまえは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q502",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "かいしゃは　どこに　ありますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かいしゃは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どこに"
+      },
+      {
+        "group_id": "g3",
+        "text": "ありますか。"
+      }
+    ],
+    "answer_examples": [
+      "ひろしましに　あります。",
+      "〇〇ちょうに　あります。"
+    ],
+    "answer_pattern": "〇〇に　あります。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "かいしゃは　どこに　ありますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q503",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "しごとは　なんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "しごとは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんですか。"
+      }
+    ],
+    "answer_examples": [
+      "ようせつの　しごとです。",
+      "しょくひんの　しごとです。"
+    ],
+    "answer_pattern": "〇〇の　しごとです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "しごとは　なんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q504",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "かいしゃは　なんじからですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かいしゃは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじからですか。"
+      }
+    ],
+    "answer_examples": [
+      "はちじからです。"
+    ],
+    "answer_pattern": "〇じからです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "かいしゃは　なんじからですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q505",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "かいしゃは　なんじまでですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かいしゃは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじまでですか。"
+      }
+    ],
+    "answer_examples": [
+      "ごじまでです。"
+    ],
+    "answer_pattern": "〇じまでです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "かいしゃは　なんじまでですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q506",
+    "category_id": "company_work",
+    "level": "preA1",
+    "japanese_plain": "やすみは　なんようびですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "やすみは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんようびですか。"
+      }
+    ],
+    "answer_examples": [
+      "どようびと　にちようびです。"
+    ],
+    "answer_pattern": "〇ようびです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "やすみは　なんようびですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q507",
+    "category_id": "company_work",
+    "level": "A1",
+    "japanese_plain": "どんな　しごとを　していますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "どんな　しごとを"
+      },
+      {
+        "group_id": "g2",
+        "text": "していますか。"
+      }
+    ],
+    "answer_examples": [
+      "ようせつを　しています。",
+      "ぶひんを　つくっています。"
+    ],
+    "answer_pattern": "〇〇を　しています。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "どんな　しごとを　していますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q508",
+    "category_id": "company_work",
+    "level": "A1",
+    "japanese_plain": "しごとで　なにを　つかいますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "しごとで"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "つかいますか。"
+      }
+    ],
+    "answer_examples": [
+      "きかいを　つかいます。",
+      "ハンマーを　つかいます。"
+    ],
+    "answer_pattern": "〇〇を　つかいます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "しごとで　なにを　つかいますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q509",
+    "category_id": "company_work",
+    "level": "A1",
+    "japanese_plain": "しごとは　どうですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "しごとは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どうですか。"
+      }
+    ],
+    "answer_examples": [
+      "たのしいです。",
+      "いそがしいです。",
+      "むずかしいです。"
+    ],
+    "answer_pattern": "〇〇です。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "しごとは　どうですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q510",
+    "category_id": "company_work",
+    "level": "A1",
+    "japanese_plain": "しごとで　なにが　むずかしいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "しごとで"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにが"
+      },
+      {
+        "group_id": "g3",
+        "text": "むずかしいですか。"
+      }
+    ],
+    "answer_examples": [
+      "にほんごが　むずかしいです。",
+      "きかいの　そうさが　むずかしいです。"
+    ],
+    "answer_pattern": "〇〇が　むずかしいです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "しごとで　なにが　むずかしいですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q511",
+    "category_id": "company_work",
+    "level": "A1",
+    "japanese_plain": "ひるごはんは　どこで　たべますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "ひるごはんは"
+      },
+      {
+        "group_id": "g2",
+        "text": "どこで"
+      },
+      {
+        "group_id": "g3",
+        "text": "たべますか。"
+      }
+    ],
+    "answer_examples": [
+      "しょくどうで　たべます。",
+      "きゅうけいしつで　たべます。"
+    ],
+    "answer_pattern": "〇〇で　たべます。",
+    "enabled": false,
+    "include_in_random": false,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "ひるごはんは　どこで　たべますか。",
+    "notes": "追加候補。"
+  },
+  {
+    "question_id": "Q601",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "きのう、なにを　しましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きのう、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しましたか。"
+      }
+    ],
+    "answer_examples": [
+      "しごとを　しました。",
+      "かいものを　しました。"
+    ],
+    "answer_pattern": "〇〇を　しました。／〇〇へ　いきました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きのう、なにを　しましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q602",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "きのう、なにを　たべましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きのう、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "たべましたか。"
+      }
+    ],
+    "answer_examples": [
+      "カレーを　たべました。",
+      "ごはんを　たべました。"
+    ],
+    "answer_pattern": "〇〇を　たべました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きのう、なにを　たべましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q603",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "きのう、なんじに　ねましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "きのう、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんじに"
+      },
+      {
+        "group_id": "g3",
+        "text": "ねましたか。"
+      }
+    ],
+    "answer_examples": [
+      "じゅういちじに　ねました。"
+    ],
+    "answer_pattern": "〇じに　ねました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "きのう、なんじに　ねましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q604",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "つぎの　やすみに、なにを　しますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "つぎの　やすみに、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しますか。"
+      }
+    ],
+    "answer_examples": [
+      "かいものを　します。",
+      "ともだちと　あそびます。"
+    ],
+    "answer_pattern": "〇〇を　します。／〇〇へ　いきます。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "つぎの　やすみに、なにを　しますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q605",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "せんしゅうの　やすみに、なにを　しましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "せんしゅうの　やすみに、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "しましたか。"
+      }
+    ],
+    "answer_examples": [
+      "そうじを　しました。",
+      "こうえんへ　いきました。"
+    ],
+    "answer_pattern": "〇〇を　しました。／〇〇へ　いきました。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "せんしゅうの　やすみに、なにを　しましたか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q606",
+    "category_id": "past_future",
+    "level": "A1",
+    "japanese_plain": "さいきん、なにを　かいましたか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "さいきん、"
+      },
+      {
+        "group_id": "g2",
+        "text": "なにを"
+      },
+      {
+        "group_id": "g3",
+        "text": "かいましたか。"
+      }
+    ],
+    "answer_examples": [
+      "ふくを　かいました。",
+      "くつを　かいました。"
+    ],
+    "answer_pattern": "〇〇を　かいました。",
+    "enabled": false,
+    "include_in_random": false,
+    "personal": false,
+    "follow_up_ids": [],
+    "audio_text": "さいきん、なにを　かいましたか。",
+    "notes": "追加候補。「さいきん」が難しい。"
+  },
+  {
+    "question_id": "Q701",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "なんさいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "なんさいですか。"
+      }
+    ],
+    "answer_examples": [
+      "にじゅっさいです。",
+      "さんじゅっさいです。"
+    ],
+    "answer_pattern": "〇さいです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": true,
+    "follow_up_ids": [],
+    "audio_text": "なんさいですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q702",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "たんじょうびは　いつですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "たんじょうびは"
+      },
+      {
+        "group_id": "g2",
+        "text": "いつですか。"
+      }
+    ],
+    "answer_examples": [
+      "はちがつ　いつかです。"
+    ],
+    "answer_pattern": "〇がつ〇にちです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": true,
+    "follow_up_ids": [],
+    "audio_text": "たんじょうびは　いつですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q703",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "かぞくは　なんにんですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "かぞくは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんにんですか。"
+      }
+    ],
+    "answer_examples": [
+      "よにんです。",
+      "ごにんです。"
+    ],
+    "answer_pattern": "〇にんです。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": true,
+    "follow_up_ids": [],
+    "audio_text": "かぞくは　なんにんですか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q704",
+    "category_id": "family_personal",
+    "level": "A1",
+    "japanese_plain": "けっこんして　いますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "けっこんして"
+      },
+      {
+        "group_id": "g2",
+        "text": "いますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、しています。",
+      "いいえ、していません。"
+    ],
+    "answer_pattern": "はい、しています。／いいえ、していません。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": true,
+    "follow_up_ids": [],
+    "audio_text": "けっこんして　いますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q705",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "こどもが　いますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "こどもが"
+      },
+      {
+        "group_id": "g2",
+        "text": "いますか。"
+      }
+    ],
+    "answer_examples": [
+      "はい、います。",
+      "いいえ、いません。"
+    ],
+    "answer_pattern": "はい、います。／いいえ、いません。",
+    "enabled": true,
+    "include_in_random": true,
+    "personal": true,
+    "follow_up_ids": [
+      "Q706"
+    ],
+    "audio_text": "こどもが　いますか。",
+    "notes": ""
+  },
+  {
+    "question_id": "Q706",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "なんにん　いますか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "なんにん"
+      },
+      {
+        "group_id": "g2",
+        "text": "いますか。"
+      }
+    ],
+    "answer_examples": [
+      "ひとり　います。",
+      "ふたり　います。"
+    ],
+    "answer_pattern": "〇にん　います。",
+    "enabled": true,
+    "include_in_random": false,
+    "personal": true,
+    "follow_up_ids": [
+      "Q707"
+    ],
+    "audio_text": "なんにん　いますか。",
+    "notes": "Q705の関連質問。"
+  },
+  {
+    "question_id": "Q707",
+    "category_id": "family_personal",
+    "level": "preA1",
+    "japanese_plain": "こどもは　なんさいですか。",
+    "japanese_segments": [
+      {
+        "group_id": "g1",
+        "text": "こどもは"
+      },
+      {
+        "group_id": "g2",
+        "text": "なんさいですか。"
+      }
+    ],
+    "answer_examples": [
+      "ろくさいです。",
+      "さんさいです。"
+    ],
+    "answer_pattern": "〇さいです。",
+    "enabled": true,
+    "include_in_random": false,
+    "personal": true,
+    "follow_up_ids": [],
+    "audio_text": "こどもは　なんさいですか。",
+    "notes": "Q706の関連質問。複数の場合は教師が補助する。"
+  }
+]
