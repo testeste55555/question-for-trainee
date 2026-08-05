@@ -1,0 +1,1174 @@
+[
+  {
+    "question_id": "Q001",
+    "plain": "What is your name?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your name?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q002",
+    "plain": "What country are you from?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "What country"
+      },
+      {
+        "group_id": "g2",
+        "text": "are you from?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q003",
+    "plain": "Where do you live?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Where"
+      },
+      {
+        "group_id": "g2",
+        "text": "do you live?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q004",
+    "plain": "When did you come to Japan?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "When"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you come"
+      },
+      {
+        "group_id": "g2",
+        "text": "to Japan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q005",
+    "plain": "How is life in Japan?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How is"
+      },
+      {
+        "group_id": "g1",
+        "text": "life in Japan?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q101",
+    "plain": "What is your hobby?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your hobby?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q102",
+    "plain": "What is your favorite food?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your favorite food?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q103",
+    "plain": "What is your favorite drink?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your favorite drink?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q104",
+    "plain": "What is your favorite sport?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your favorite sport?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q105",
+    "plain": "What is your favorite color?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your favorite color?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q106",
+    "plain": "On your days off, what do you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "On your days off,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q107",
+    "plain": "In Japan, where do you want to go?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "In Japan,"
+      },
+      {
+        "group_id": "g2",
+        "text": "where"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you want to go?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q108",
+    "plain": "In Japan, what do you want to eat?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "In Japan,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you want to eat?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q201",
+    "plain": "How are you?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "How are you?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q202",
+    "plain": "Every morning, what time do you wake up?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Every morning,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what time"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you wake up?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q203",
+    "plain": "Every night, what time do you go to bed?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Every night,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what time"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you go to bed?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q204",
+    "plain": "For breakfast, what do you eat?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "For breakfast,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you eat?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q205",
+    "plain": "How do you go to work?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "How"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you go"
+      },
+      {
+        "group_id": "g2",
+        "text": "to work?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q206",
+    "plain": "How many minutes does it take to get to work?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How many minutes does it take"
+      },
+      {
+        "group_id": "g1",
+        "text": "to get to work?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q207",
+    "plain": "Do you often cook?",
+    "segments": [
+      {
+        "group_id": "g3",
+        "text": "Do you"
+      },
+      {
+        "group_id": "g1",
+        "text": "often"
+      },
+      {
+        "group_id": "g2",
+        "text": "cook?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q208",
+    "plain": "Where do you shop?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Where"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you"
+      },
+      {
+        "group_id": "g2",
+        "text": "shop?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q209",
+    "plain": "Who do you live with?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Who"
+      },
+      {
+        "group_id": "g2",
+        "text": "do you live with?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q301",
+    "plain": "What day of the week is it today?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What day of the week"
+      },
+      {
+        "group_id": "g1",
+        "text": "is it today?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q302",
+    "plain": "What is the date today?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is the date"
+      },
+      {
+        "group_id": "g1",
+        "text": "today?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q303",
+    "plain": "What time is it now?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What time"
+      },
+      {
+        "group_id": "g1",
+        "text": "is it now?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q304",
+    "plain": "How is today’s weather?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How is"
+      },
+      {
+        "group_id": "g1",
+        "text": "today’s weather?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q305",
+    "plain": "What day of the week is it tomorrow?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What day of the week"
+      },
+      {
+        "group_id": "g1",
+        "text": "is it tomorrow?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q306",
+    "plain": "Tomorrow, what will you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Tomorrow,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "will you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q401",
+    "plain": "Do you like Japanese?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Do you like"
+      },
+      {
+        "group_id": "g1",
+        "text": "Japanese?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q402",
+    "plain": "Can you read hiragana?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Can you read"
+      },
+      {
+        "group_id": "g1",
+        "text": "hiragana?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q403",
+    "plain": "Can you read katakana?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Can you read"
+      },
+      {
+        "group_id": "g1",
+        "text": "katakana?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q404",
+    "plain": "Every day, do you study Japanese?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Every day,"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you study"
+      },
+      {
+        "group_id": "g2",
+        "text": "Japanese?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q405",
+    "plain": "Where did you study Japanese?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Where"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you study"
+      },
+      {
+        "group_id": "g2",
+        "text": "Japanese?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q406",
+    "plain": "How long did you study Japanese?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "How long"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you study"
+      },
+      {
+        "group_id": "g2",
+        "text": "Japanese?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q407",
+    "plain": "In Japanese, what is difficult?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "In Japanese,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "is difficult?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q408",
+    "plain": "How is Japanese?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How is"
+      },
+      {
+        "group_id": "g1",
+        "text": "Japanese?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q501",
+    "plain": "What is the name of your company?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "the name of your company?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q502",
+    "plain": "Where is your company?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Where"
+      },
+      {
+        "group_id": "g3",
+        "text": "is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your company?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q503",
+    "plain": "What is your job?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your job?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q504",
+    "plain": "What time does work start?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What time does"
+      },
+      {
+        "group_id": "g1",
+        "text": "work start?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q505",
+    "plain": "What time does work finish?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What time does"
+      },
+      {
+        "group_id": "g1",
+        "text": "work finish?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q506",
+    "plain": "What day of the week is your day off?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "What day of the week"
+      },
+      {
+        "group_id": "g1",
+        "text": "is your day off?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q507",
+    "plain": "What kind of work do you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "What kind of work"
+      },
+      {
+        "group_id": "g2",
+        "text": "do you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q508",
+    "plain": "At work, what do you use?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "At work,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you use?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q509",
+    "plain": "How is your work?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your work?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q510",
+    "plain": "At work, what is difficult?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "At work,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "is difficult?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q511",
+    "plain": "Where do you eat lunch?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Where"
+      },
+      {
+        "group_id": "g3",
+        "text": "do you eat"
+      },
+      {
+        "group_id": "g1",
+        "text": "lunch?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q601",
+    "plain": "Yesterday, what did you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Yesterday,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q602",
+    "plain": "Yesterday, what did you eat?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Yesterday,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you eat?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q603",
+    "plain": "Yesterday, what time did you go to bed?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Yesterday,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what time"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you go to bed?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q604",
+    "plain": "On your next day off, what will you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "On your next day off,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "will you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q605",
+    "plain": "On your day off last week, what did you do?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "On your day off last week,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you do?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q606",
+    "plain": "Recently, what did you buy?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "Recently,"
+      },
+      {
+        "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
+        "text": "did you buy?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q701",
+    "plain": "How old are you?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "How old are you?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q702",
+    "plain": "When is your birthday?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "When is"
+      },
+      {
+        "group_id": "g1",
+        "text": "your birthday?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q703",
+    "plain": "How many people are in your family?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How many people"
+      },
+      {
+        "group_id": "g1",
+        "text": "are in your family?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q704",
+    "plain": "Are you married?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Are you"
+      },
+      {
+        "group_id": "g1",
+        "text": "married?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q705",
+    "plain": "Do you have children?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "Do you have"
+      },
+      {
+        "group_id": "g1",
+        "text": "children?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q706",
+    "plain": "How many children do you have?",
+    "segments": [
+      {
+        "group_id": "g1",
+        "text": "How many"
+      },
+      {
+        "group_id": "g2",
+        "text": "children do you have?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  },
+  {
+    "question_id": "Q707",
+    "plain": "How old is your child?",
+    "segments": [
+      {
+        "group_id": "g2",
+        "text": "How old"
+      },
+      {
+        "group_id": "g1",
+        "text": "is your child?"
+      }
+    ],
+    "status": "approved",
+    "review_method": "meaning and reverse-meaning review",
+    "review_note": "No native-speaker check recorded.",
+    "updated_at": "2026-08-05"
+  }
+]
