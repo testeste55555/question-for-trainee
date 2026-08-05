@@ -353,7 +353,7 @@
   },
   {
     "question_id": "Q206",
-    "plain": "Berapa menit ke tempat kerja?",
+    "plain": "Berapa menit sampai ke tempat kerja?",
     "segments": [
       {
         "group_id": "g2",
@@ -361,7 +361,7 @@
       },
       {
         "group_id": "g1",
-        "text": "ke tempat kerja?"
+        "text": "sampai ke tempat kerja?"
       }
     ],
     "status": "approved",
@@ -745,15 +745,15 @@
   },
   {
     "question_id": "Q503",
-    "plain": "Apa pekerjaan Anda?",
+    "plain": "Pekerjaan Anda seperti apa?",
     "segments": [
       {
         "group_id": "g2",
-        "text": "Apa"
+        "text": "Pekerjaan Anda"
       },
       {
         "group_id": "g1",
-        "text": "pekerjaan Anda?"
+        "text": "seperti apa?"
       }
     ],
     "status": "approved",
@@ -799,15 +799,15 @@
   },
   {
     "question_id": "Q506",
-    "plain": "Hari libur hari apa?",
+    "plain": "Hari apa Anda libur kerja?",
     "segments": [
       {
-        "group_id": "g1",
-        "text": "Hari libur"
+        "group_id": "g2",
+        "text": "Hari apa"
       },
       {
-        "group_id": "g2",
-        "text": "hari apa?"
+        "group_id": "g1",
+        "text": "Anda libur kerja?"
       }
     ],
     "status": "approved",
@@ -817,14 +817,18 @@
   },
   {
     "question_id": "Q507",
-    "plain": "Pekerjaan apa yang Anda lakukan?",
+    "plain": "Di tempat kerja, apa yang Anda lakukan?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Pekerjaan apa"
+        "text": "Di tempat kerja,"
       },
       {
         "group_id": "g2",
+        "text": "apa"
+      },
+      {
+        "group_id": "g3",
         "text": "yang Anda lakukan?"
       }
     ],
@@ -1104,12 +1108,8 @@
     "plain": "Apakah Anda sudah menikah?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Apakah Anda"
-      },
-      {
         "group_id": "g1",
-        "text": "sudah menikah?"
+        "text": "Apakah Anda sudah menikah?"
       }
     ],
     "status": "approved",
