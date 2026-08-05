@@ -1,0 +1,149 @@
+[
+  {
+    "country_id": "VN",
+    "country_name_ja": "ベトナム",
+    "country_code": "VN",
+    "language_ids": [
+      "vi"
+    ],
+    "default_language_id": "vi",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 1
+  },
+  {
+    "country_id": "KH",
+    "country_name_ja": "カンボジア",
+    "country_code": "KH",
+    "language_ids": [
+      "km"
+    ],
+    "default_language_id": "km",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 2
+  },
+  {
+    "country_id": "IN",
+    "country_name_ja": "インド",
+    "country_code": "IN",
+    "language_ids": [
+      "hi",
+      "en"
+    ],
+    "default_language_id": null,
+    "requires_language_selection": true,
+    "enabled": true,
+    "sort_order": 3
+  },
+  {
+    "country_id": "PH",
+    "country_name_ja": "フィリピン",
+    "country_code": "PH",
+    "language_ids": [
+      "fil",
+      "en"
+    ],
+    "default_language_id": null,
+    "requires_language_selection": true,
+    "enabled": true,
+    "sort_order": 4
+  },
+  {
+    "country_id": "LA",
+    "country_name_ja": "ラオス",
+    "country_code": "LA",
+    "language_ids": [
+      "lo"
+    ],
+    "default_language_id": "lo",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 5
+  },
+  {
+    "country_id": "MN",
+    "country_name_ja": "モンゴル",
+    "country_code": "MN",
+    "language_ids": [
+      "mn"
+    ],
+    "default_language_id": "mn",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 6
+  },
+  {
+    "country_id": "LK",
+    "country_name_ja": "スリランカ",
+    "country_code": "LK",
+    "language_ids": [
+      "si",
+      "ta"
+    ],
+    "default_language_id": null,
+    "requires_language_selection": true,
+    "enabled": true,
+    "sort_order": 7
+  },
+  {
+    "country_id": "MM",
+    "country_name_ja": "ミャンマー",
+    "country_code": "MM",
+    "language_ids": [
+      "my"
+    ],
+    "default_language_id": "my",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 8
+  },
+  {
+    "country_id": "TH",
+    "country_name_ja": "タイ",
+    "country_code": "TH",
+    "language_ids": [
+      "th"
+    ],
+    "default_language_id": "th",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 9
+  },
+  {
+    "country_id": "ID",
+    "country_name_ja": "インドネシア",
+    "country_code": "ID",
+    "language_ids": [
+      "id"
+    ],
+    "default_language_id": "id",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 10
+  },
+  {
+    "country_id": "NP",
+    "country_name_ja": "ネパール",
+    "country_code": "NP",
+    "language_ids": [
+      "ne"
+    ],
+    "default_language_id": "ne",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 11
+  },
+  {
+    "country_id": "TL",
+    "country_name_ja": "東ティモール",
+    "country_code": "TL",
+    "language_ids": [
+      "tet"
+    ],
+    "default_language_id": "tet",
+    "requires_language_selection": false,
+    "enabled": true,
+    "sort_order": 12
+  }
+]
