@@ -745,15 +745,15 @@
   },
   {
     "question_id": "Q503",
-    "plain": "What is your job?",
+    "plain": "What kind of work do you do?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "What is"
+        "group_id": "g1",
+        "text": "What kind of"
       },
       {
-        "group_id": "g1",
-        "text": "your job?"
+        "group_id": "g2",
+        "text": "work do you do?"
       }
     ],
     "status": "approved",
@@ -799,7 +799,7 @@
   },
   {
     "question_id": "Q506",
-    "plain": "What day of the week is your day off?",
+    "plain": "What day of the week are you off work?",
     "segments": [
       {
         "group_id": "g2",
@@ -807,7 +807,7 @@
       },
       {
         "group_id": "g1",
-        "text": "is your day off?"
+        "text": "are you off work?"
       }
     ],
     "status": "approved",
@@ -817,14 +817,18 @@
   },
   {
     "question_id": "Q507",
-    "plain": "What kind of work do you do?",
+    "plain": "At work, what do you do?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "What kind of work"
+        "text": "At work,"
       },
       {
         "group_id": "g2",
+        "text": "what"
+      },
+      {
+        "group_id": "g3",
         "text": "do you do?"
       }
     ],
@@ -1104,12 +1108,8 @@
     "plain": "Are you married?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Are you"
-      },
-      {
         "group_id": "g1",
-        "text": "married?"
+        "text": "Are you married?"
       }
     ],
     "status": "approved",
