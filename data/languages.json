@@ -7,7 +7,7 @@
     "direction": "ltr",
     "font_stack": "Noto Sans, Noto Sans Vietnamese, sans-serif",
     "enabled": true,
-    "translation_available": false
+    "translation_available": true
   },
   {
     "language_id": "km",
