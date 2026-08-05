@@ -745,15 +745,15 @@
   },
   {
     "question_id": "Q503",
-    "plain": "Công việc của bạn là gì?",
+    "plain": "Bạn làm công việc gì?",
     "segments": [
       {
-        "group_id": "g1",
-        "text": "Công việc của bạn"
+        "group_id": "g2",
+        "text": "Bạn làm công việc"
       },
       {
-        "group_id": "g2",
-        "text": "là gì?"
+        "group_id": "g1",
+        "text": "gì?"
       }
     ],
     "status": "approved",
@@ -799,15 +799,15 @@
   },
   {
     "question_id": "Q506",
-    "plain": "Ngày nghỉ của bạn là thứ mấy?",
+    "plain": "Bạn nghỉ làm vào thứ mấy?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Ngày nghỉ của bạn"
+        "text": "Bạn nghỉ làm"
       },
       {
         "group_id": "g2",
-        "text": "là thứ mấy?"
+        "text": "vào thứ mấy?"
       }
     ],
     "status": "approved",
@@ -817,15 +817,19 @@
   },
   {
     "question_id": "Q507",
-    "plain": "Bạn đang làm công việc gì?",
+    "plain": "Ở chỗ làm, bạn làm gì?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Bạn đang làm"
+        "group_id": "g1",
+        "text": "Ở chỗ làm,"
       },
       {
-        "group_id": "g1",
-        "text": "công việc gì?"
+        "group_id": "g3",
+        "text": "bạn làm"
+      },
+      {
+        "group_id": "g2",
+        "text": "gì?"
       }
     ],
     "status": "approved",
@@ -1104,12 +1108,8 @@
     "plain": "Bạn đã kết hôn chưa?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Bạn"
-      },
-      {
         "group_id": "g1",
-        "text": "đã kết hôn chưa?"
+        "text": "Bạn đã kết hôn chưa?"
       }
     ],
     "status": "approved",
