@@ -10,36 +10,39 @@
   <main id="home" class="screen home">
     <header class="brand"><h1>かんたん　しつもん</h1><p>せっていを　えらんでください</p></header>
     <section class="settings">
-      <fieldset><legend>しつもんの　カテゴリー</legend><div id="categories" class="choice-grid categories"></div></fieldset>
-      <div class="setting-row">
-        <fieldset><legend>レベル</legend><div class="choice-grid three" id="levels"></div></fieldset>
-        <fieldset><legend>対訳</legend><div class="choice-grid two" id="translationMode"></div></fieldset>
-      </div>
-      <div id="translationSettings" class="setting-row hidden">
-        <label>国<select id="country"><option value="">えらんでください</option></select></label>
-        <label id="languageWrap" class="hidden">言語<select id="language"></select></label>
-      </div>
+      <fieldset><legend><span>1</span> カテゴリー</legend><div id="categories" class="choice-grid categories"></div></fieldset>
+      <fieldset class="level-field"><legend><span>2</span> レベル</legend><div class="choice-grid three" id="levels"></div></fieldset>
     </section>
     <button id="start" class="primary start" disabled>スタート</button>
   </main>
 
   <main id="quiz" class="screen quiz hidden">
     <header class="quiz-header">
+      <button id="homeBtn" class="utility">⌂ ホーム</button>
       <div id="status"></div>
-      <div><button id="fullscreen" class="utility">全画面</button><button id="homeBtn" class="utility">ホーム</button></div>
+      <div><span id="progress"></span><button id="fullscreen" class="utility">全画面</button></div>
     </header>
     <section class="stage" aria-live="polite">
       <div id="question" class="question"></div>
       <div id="translation" class="translation hidden"></div>
-      <div id="translationNotice" class="notice hidden">この言語の対訳は準備中です</div>
+      <div id="translationNotice" class="notice hidden">この質問の対訳は準備中です</div>
       <div id="answers" class="answers hidden"><div class="answer-title">こたえの　れい</div><div id="answerList"></div></div>
       <button id="followup" class="followup hidden">つづきの質問</button>
     </section>
     <footer class="controls">
-      <button id="toggleTranslation">対訳を表示</button>
-      <button id="toggleAnswers">回答例を表示</button>
-      <button id="prev">前へ</button>
-      <button id="next" class="primary">次の質問</button>
+      <div id="translationControl" class="translation-control">
+        <div class="split-action">
+          <button id="toggleTranslation" aria-pressed="false"><span class="action-key">T</span><span id="translationLabel">対訳を選ぶ</span></button>
+          <button id="languageMenuToggle" class="language-menu-toggle" aria-label="対訳の言語を変更" aria-haspopup="menu" aria-expanded="false">▼</button>
+        </div>
+        <div id="languageMenu" class="language-menu hidden" role="menu" aria-label="対訳の言語">
+          <p>対訳の言語</p>
+          <div id="languageOptions"></div>
+        </div>
+      </div>
+      <button id="toggleAnswers"><span class="action-key">A</span>回答例を表示</button>
+      <button id="prev">← 前へ</button>
+      <button id="next" class="primary">次の質問 →</button>
     </footer>
   </main>
 
