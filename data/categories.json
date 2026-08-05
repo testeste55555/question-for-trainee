@@ -1,0 +1,66 @@
+[
+  {
+    "category_id": "self_intro",
+    "label_ja": "じこしょうかい",
+    "sort_order": 1,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "likes_holidays",
+    "label_ja": "すきなもの・やすみ",
+    "sort_order": 2,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "daily_life",
+    "label_ja": "まいにちの　せいかつ",
+    "sort_order": 3,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "date_time",
+    "label_ja": "ひづけ・じかん",
+    "sort_order": 4,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "japanese_learning",
+    "label_ja": "にほんご",
+    "sort_order": 5,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "company_work",
+    "label_ja": "かいしゃ・しごと",
+    "sort_order": 6,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "past_future",
+    "label_ja": "きのう・あした",
+    "sort_order": 7,
+    "enabled": true,
+    "is_personal": false,
+    "included_in_all": true
+  },
+  {
+    "category_id": "family_personal",
+    "label_ja": "かぞく・こじん",
+    "sort_order": 8,
+    "enabled": true,
+    "is_personal": true,
+    "included_in_all": false
+  }
+]
