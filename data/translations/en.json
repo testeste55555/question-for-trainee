@@ -309,19 +309,23 @@
   },
   {
     "question_id": "Q204",
-    "plain": "For breakfast, what do you eat?",
+    "plain": "For breakfast, what do you usually eat?",
     "segments": [
       {
         "group_id": "g1",
         "text": "For breakfast,"
       },
       {
+        "group_id": "g3",
+        "text": "what do you"
+      },
+      {
         "group_id": "g2",
-        "text": "what"
+        "text": "usually"
       },
       {
         "group_id": "g3",
-        "text": "do you eat?"
+        "text": "eat?"
       }
     ],
     "status": "approved",
@@ -621,18 +625,22 @@
   },
   {
     "question_id": "Q405",
-    "plain": "Where did you study Japanese?",
+    "plain": "In your home country, where did you study Japanese?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Where"
-      },
-      {
-        "group_id": "g3",
-        "text": "did you study"
+        "text": "In your home country,"
       },
       {
         "group_id": "g2",
+        "text": "where"
+      },
+      {
+        "group_id": "g4",
+        "text": "did you study"
+      },
+      {
+        "group_id": "g3",
         "text": "Japanese?"
       }
     ],
@@ -687,7 +695,7 @@
   },
   {
     "question_id": "Q408",
-    "plain": "How is Japanese?",
+    "plain": "How is studying Japanese?",
     "segments": [
       {
         "group_id": "g2",
@@ -695,7 +703,7 @@
       },
       {
         "group_id": "g1",
-        "text": "Japanese?"
+        "text": "studying Japanese?"
       }
     ],
     "status": "approved",
@@ -748,11 +756,11 @@
     "plain": "What kind of work do you do?",
     "segments": [
       {
-        "group_id": "g1",
+        "group_id": "g2",
         "text": "What kind of"
       },
       {
-        "group_id": "g2",
+        "group_id": "g1",
         "text": "work do you do?"
       }
     ],
@@ -901,18 +909,22 @@
   },
   {
     "question_id": "Q511",
-    "plain": "Where do you eat lunch?",
+    "plain": "At work, where do you eat lunch?",
     "segments": [
       {
-        "group_id": "g2",
-        "text": "Where"
+        "group_id": "g1",
+        "text": "At work,"
       },
       {
         "group_id": "g3",
+        "text": "where"
+      },
+      {
+        "group_id": "g4",
         "text": "do you eat"
       },
       {
-        "group_id": "g1",
+        "group_id": "g2",
         "text": "lunch?"
       }
     ],
