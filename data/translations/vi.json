@@ -309,7 +309,7 @@
   },
   {
     "question_id": "Q204",
-    "plain": "Bữa sáng, bạn ăn gì?",
+    "plain": "Bữa sáng, bạn thường ăn gì?",
     "segments": [
       {
         "group_id": "g1",
@@ -317,11 +317,15 @@
       },
       {
         "group_id": "g3",
-        "text": "bạn ăn"
+        "text": "bạn"
       },
       {
         "group_id": "g2",
-        "text": "gì?"
+        "text": "thường"
+      },
+      {
+        "group_id": "g3",
+        "text": "ăn gì?"
       }
     ],
     "status": "approved",
@@ -621,18 +625,22 @@
   },
   {
     "question_id": "Q405",
-    "plain": "Bạn đã học tiếng Nhật ở đâu?",
+    "plain": "Ở quê nhà, bạn đã học tiếng Nhật ở đâu?",
     "segments": [
       {
-        "group_id": "g3",
-        "text": "Bạn đã học"
+        "group_id": "g1",
+        "text": "Ở quê nhà,"
       },
       {
-        "group_id": "g2",
+        "group_id": "g4",
+        "text": "bạn đã học"
+      },
+      {
+        "group_id": "g3",
         "text": "tiếng Nhật"
       },
       {
-        "group_id": "g1",
+        "group_id": "g2",
         "text": "ở đâu?"
       }
     ],
@@ -687,11 +695,11 @@
   },
   {
     "question_id": "Q408",
-    "plain": "Tiếng Nhật thế nào?",
+    "plain": "Việc học tiếng Nhật thế nào?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Tiếng Nhật"
+        "text": "Việc học tiếng Nhật"
       },
       {
         "group_id": "g2",
@@ -748,11 +756,11 @@
     "plain": "Bạn làm công việc gì?",
     "segments": [
       {
-        "group_id": "g2",
+        "group_id": "g1",
         "text": "Bạn làm công việc"
       },
       {
-        "group_id": "g1",
+        "group_id": "g2",
         "text": "gì?"
       }
     ],
@@ -901,18 +909,22 @@
   },
   {
     "question_id": "Q511",
-    "plain": "Bạn ăn bữa trưa ở đâu?",
+    "plain": "Khi làm việc, bạn ăn trưa ở đâu?",
     "segments": [
       {
-        "group_id": "g3",
-        "text": "Bạn ăn"
+        "group_id": "g1",
+        "text": "Khi làm việc,"
       },
       {
-        "group_id": "g1",
-        "text": "bữa trưa"
+        "group_id": "g4",
+        "text": "bạn ăn"
       },
       {
         "group_id": "g2",
+        "text": "trưa"
+      },
+      {
+        "group_id": "g3",
         "text": "ở đâu?"
       }
     ],
