@@ -2,6 +2,7 @@
   {
     "category_id": "self_intro",
     "label_ja": "じこしょうかい",
+    "scope_ja": "なまえ・くに・すんでいるところ・にほんにきた時期・にほんでの生活",
     "sort_order": 1,
     "enabled": true,
     "is_personal": false,
@@ -10,6 +11,7 @@
   {
     "category_id": "likes_holidays",
     "label_ja": "すきなもの・やすみ",
+    "scope_ja": "しゅみ・このみ・行きたいところ・食べたいもの・休みの日の活動",
     "sort_order": 2,
     "enabled": true,
     "is_personal": false,
@@ -18,6 +20,7 @@
   {
     "category_id": "daily_life",
     "label_ja": "まいにちの　せいかつ",
+    "scope_ja": "体調・生活習慣・食事・通勤・買い物・日常の過去と予定",
     "sort_order": 3,
     "enabled": true,
     "is_personal": false,
@@ -25,7 +28,8 @@
   },
   {
     "category_id": "date_time",
-    "label_ja": "ひづけ・じかん",
+    "label_ja": "カレンダー・じかん・てんき",
+    "scope_ja": "曜日・日付・現在時刻・天気",
     "sort_order": 4,
     "enabled": true,
     "is_personal": false,
@@ -34,6 +38,7 @@
   {
     "category_id": "japanese_learning",
     "label_ja": "にほんご",
+    "scope_ja": "文字・学習習慣・学習歴・日本語学習の感想",
     "sort_order": 5,
     "enabled": true,
     "is_personal": false,
@@ -42,15 +47,8 @@
   {
     "category_id": "company_work",
     "label_ja": "かいしゃ・しごと",
+    "scope_ja": "会社情報・職種・勤務時間・休日・作業内容・道具・仕事の感想",
     "sort_order": 6,
-    "enabled": true,
-    "is_personal": false,
-    "included_in_all": true
-  },
-  {
-    "category_id": "past_future",
-    "label_ja": "きのう・あした",
-    "sort_order": 7,
     "enabled": true,
     "is_personal": false,
     "included_in_all": true
@@ -58,7 +56,8 @@
   {
     "category_id": "family_personal",
     "label_ja": "かぞく・こじん",
-    "sort_order": 8,
+    "scope_ja": "年齢・誕生日・家族・結婚・子ども。個人的なため「すべて」から除外",
+    "sort_order": 7,
     "enabled": true,
     "is_personal": true,
     "included_in_all": false
