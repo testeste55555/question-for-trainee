@@ -763,11 +763,11 @@
   },
   {
     "question_id": "Q504",
-    "plain": "Perusahaan mulai jam berapa?",
+    "plain": "Pekerjaan mulai jam berapa?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Perusahaan mulai"
+        "text": "Pekerjaan mulai"
       },
       {
         "group_id": "g2",
@@ -781,11 +781,11 @@
   },
   {
     "question_id": "Q505",
-    "plain": "Perusahaan selesai jam berapa?",
+    "plain": "Pekerjaan selesai jam berapa?",
     "segments": [
       {
         "group_id": "g1",
-        "text": "Perusahaan selesai"
+        "text": "Pekerjaan selesai"
       },
       {
         "group_id": "g2",
